@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.naveenautomationlabs.automationFramework.Listeners.CustomListeners"></listener>
+	<listener class-name="com.naveenautomationlabs.automationFramework.Listeners.ExtentReportListener"></listener>
+	<listener class-name="com.naveenautomationlabs.automationFramework.Listeners.TransformerForRetry"></listener>
+	</listeners>
+
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="com.naveenautomationlabs.automationFramework.pages.OrderHistory"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.MyAccount"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.YourStoreTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.YourStore"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.OrderHistoryTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.AccountLogin"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountInformationtTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.MyAccountInformation"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.RegisterAccount"/>
+      <class name="com.naveenautomationlabs.automationFramework.pages.SearchIphone"/>
+      <class name="com.naveenautomationlabs.automationFramework.base.TestBase"/>
+      <class name="com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
