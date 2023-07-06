@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountTest">
+        <methods>
+          <include name="validateSideNavigationBar"/>
+          <include name="validateLoginUsingValidCredential"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="setUpLogger"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyAccountTest -->
+      <class name="com.naveenautomationlabs.automationFramework.tests.YourStoreTest">
+        <methods>
+          <include name="failedTestCaseExample"/>
+          <include name="validateIsImageSelectedFromVisibleText"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="setUpLogger"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.YourStoreTest -->
+      <class name="com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest">
+        <methods>
+          <include name="validateUserRegisterWithValidDetails"/>
+          <include name="quit"/>
+          <include name="setUpLogger"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest -->
+      <class name="com.naveenautomationlabs.automationFramework.tests.MyWishListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test"/>
+          <include name="quit"/>
+          <include name="setUpLogger"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyWishListTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
